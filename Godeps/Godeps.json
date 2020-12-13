@@ -1,0 +1,144 @@
+{
+	"ImportPath": "transfer-from-ssdb-to-ssdb",
+	"GoVersion": "go1.14",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/aerospike/aerospike-client-go",
+			"Comment": "v2.1.1",
+			"Rev": "f257953b1650505cf4c357fcc4f032d160ebb07e"
+		},
+		{
+			"ImportPath": "github.com/aerospike/aerospike-client-go/internal/atomic",
+			"Comment": "v2.1.1",
+			"Rev": "f257953b1650505cf4c357fcc4f032d160ebb07e"
+		},
+		{
+			"ImportPath": "github.com/aerospike/aerospike-client-go/internal/lua",
+			"Comment": "v2.1.1",
+			"Rev": "f257953b1650505cf4c357fcc4f032d160ebb07e"
+		},
+		{
+			"ImportPath": "github.com/aerospike/aerospike-client-go/internal/lua/resources",
+			"Comment": "v2.1.1",
+			"Rev": "f257953b1650505cf4c357fcc4f032d160ebb07e"
+		},
+		{
+			"ImportPath": "github.com/aerospike/aerospike-client-go/internal/particle_type",
+			"Comment": "v2.1.1",
+			"Rev": "f257953b1650505cf4c357fcc4f032d160ebb07e"
+		},
+		{
+			"ImportPath": "github.com/aerospike/aerospike-client-go/logger",
+			"Comment": "v2.1.1",
+			"Rev": "f257953b1650505cf4c357fcc4f032d160ebb07e"
+		},
+		{
+			"ImportPath": "github.com/aerospike/aerospike-client-go/pkg/bcrypt",
+			"Comment": "v2.1.1",
+			"Rev": "f257953b1650505cf4c357fcc4f032d160ebb07e"
+		},
+		{
+			"ImportPath": "github.com/aerospike/aerospike-client-go/pkg/ripemd160",
+			"Comment": "v2.1.1",
+			"Rev": "f257953b1650505cf4c357fcc4f032d160ebb07e"
+		},
+		{
+			"ImportPath": "github.com/aerospike/aerospike-client-go/types",
+			"Comment": "v2.1.1",
+			"Rev": "f257953b1650505cf4c357fcc4f032d160ebb07e"
+		},
+		{
+			"ImportPath": "github.com/aerospike/aerospike-client-go/types/rand",
+			"Comment": "v2.1.1",
+			"Rev": "f257953b1650505cf4c357fcc4f032d160ebb07e"
+		},
+		{
+			"ImportPath": "github.com/aerospike/aerospike-client-go/utils/buffer",
+			"Comment": "v2.1.1",
+			"Rev": "f257953b1650505cf4c357fcc4f032d160ebb07e"
+		},
+		{
+			"ImportPath": "github.com/armon/go-metrics",
+			"Rev": "7aa49fde808223f8dadfdbfd3a20ff6c19e5f9ec"
+		},
+		{
+			"ImportPath": "github.com/golang/glog",
+			"Rev": "23def4e6c14b4da8ac2ed8007337bc5eb5007998"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/consul/api",
+			"Comment": "v1.0.6-7-g93b422fca",
+			"Rev": "93b422fcaefed7e32c577f9e18a193886476496f"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/go-cleanhttp",
+			"Rev": "d5fe4b57a186c716b0e00b8c301cbd9b4182694d"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/go-immutable-radix",
+			"Rev": "7f3cd4390caab3250a57f30efdb2a65dd7649ecf"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/go-rootcerts",
+			"Rev": "6bb64b370b90e7ef1fa532be9e591a81c3493e00"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/golang-lru/simplelru",
+			"Rev": "0fb14efe8c47ae851c0034ed7a448854d3d34cf3"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/serf/coordinate",
+			"Comment": "v0.8.1-97-gd4f33d5",
+			"Rev": "d4f33d5b6a0b7b252b122dc80d559e9e5280d2d4"
+		},
+		{
+			"ImportPath": "github.com/lessos/lessgo/data/hissdb",
+			"Rev": "cf1a3771317e23e92df11b4375ccdd33fa726e3c"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/go-homedir",
+			"Rev": "b8bc1bf767474819792c23f32d8286a45736f1c6"
+		},
+		{
+			"ImportPath": "github.com/yuin/gopher-lua",
+			"Rev": "1cd887cd7036fd4be7a0cb180dd508cb8e2e689a"
+		},
+		{
+			"ImportPath": "github.com/yuin/gopher-lua/ast",
+			"Rev": "1cd887cd7036fd4be7a0cb180dd508cb8e2e689a"
+		},
+		{
+			"ImportPath": "github.com/yuin/gopher-lua/parse",
+			"Rev": "1cd887cd7036fd4be7a0cb180dd508cb8e2e689a"
+		},
+		{
+			"ImportPath": "github.com/yuin/gopher-lua/pm",
+			"Rev": "1cd887cd7036fd4be7a0cb180dd508cb8e2e689a"
+		},
+		{
+			"ImportPath": "golang.org/x/sync/errgroup",
+			"Rev": "b3e1573b75205f2905c4b27986413d2e2be9803c"
+		},
+		{
+			"ImportPath": "xr/configuration",
+			"Rev": "9b5b93fe64b56884568afe46d8c0eb339539fde2"
+		},
+		{
+			"ImportPath": "xr/ssdb/config",
+			"Rev": "037b8cd1477e089447d1b3221e948aa67ca7954a"
+		},
+		{
+			"ImportPath": "xr/xutor/errh",
+			"Rev": "23a48b585ca56424db9a358663f29988d2f235f8"
+		},
+		{
+			"ImportPath": "xr/xutor/global",
+			"Rev": "23a48b585ca56424db9a358663f29988d2f235f8"
+		},
+		{
+			"ImportPath": "xr/xutor/kvdbs",
+			"Rev": "23a48b585ca56424db9a358663f29988d2f235f8"
+		}
+	]
+}
