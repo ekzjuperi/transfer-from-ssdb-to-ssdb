@@ -1,0 +1,11 @@
+before_script:
+  - make clean
+  - make info
+
+stages:
+  - test
+
+run-tests:
+  stage: test
+  script:
+    - make test

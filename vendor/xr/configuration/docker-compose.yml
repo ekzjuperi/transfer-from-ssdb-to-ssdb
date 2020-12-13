@@ -1,0 +1,12 @@
+xrcfg:
+  build: .
+  environment:
+    - CONSUL_HTTP_ADDR=consul:8500
+  links:
+    - consul
+
+consul:
+  image: progrium/consul:latest
+  command: -server -bootstrap-expect 1 -data-dir=/tmp/consul
+  expose:
+    - "8500"

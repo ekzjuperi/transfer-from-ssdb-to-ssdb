@@ -1,0 +1,8 @@
+/log/
+/logs/
+/prev/
+/.idea/
+*.iml
+*.log
+debug.*
+temp.*

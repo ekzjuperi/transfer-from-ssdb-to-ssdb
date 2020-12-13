@@ -1,0 +1,1 @@
+[![build status](http://gitlab-ci.regium.com/projects/22/status.png?ref=dev)](http://gitlab-ci.regium.com/projects/22?ref=dev)
